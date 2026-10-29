@@ -42,5 +42,20 @@ This is a personal, educational project. It is not affiliated with, endorsed by 
 
 ## License
 
+These licenses cover only this project's own code and content. They grant no rights under any third-party patent or trademark.
+
 - **Code** (all `.py` files): [MIT](LICENSE).
 - **Text, figures and videos** (the write-up, generated images and animations): [CC BY 4.0](LICENSE-CONTENT.md). You may share and adapt them, including commercially, as long as you give credit.
+
+
+## References
+1. ASML, US patent US7145269B2, *Lithographic apparatus, Lorentz actuator, and device manufacturing method* — [patents.google.com](https://patents.google.com/patent/US7145269B2/en). Used in 4.1 for the actuator layout: a flat moving coil, two rows of magnets of opposite polarity under its two legs, a steel core closing the flux.
+
+2. M. D. Levenson, "Towards ultimate optical lithography with NXT:1950i dual-stage immersion platform," *Semiconductor Digest* — [sst.semiconductor-digest.com](https://sst.semiconductor-digest.com/?p=30300). Used in 4.1 and 4.2 for the encoder concept (four two-axis heads per stage reading a grid plate) and the sub-nanometre lithography resolution.
+
+3. F. Yang et al., "Two Degree-of-Freedom Fiber-Coupled Heterodyne Grating Interferometer with Milli-Radian Operating Range of Rotation," *Sensors* 19(14), 3219, 2019 — [mdpi.com](https://www.mdpi.com/1424-8220/19/14/3219). Used in 4.2: it states that lithography encoder heads must work over ±1.5 mrad of rotation.
+
+4. HEIDENHAIN PP 281 two-coordinate encoder, product data — [micromech.co.uk](https://micromech.co.uk/Product/101072/pm), [heidenhain.us](https://www.heidenhain.us/?p=493). Used in 4.2 for the catalogue encoder step (down to 0.05 µm).
+5. Renishaw TONiC readhead installation drawing — [pdf](https://8id.xray.aps.anl.gov/elog-mirror/8-ID/170816_110154/TONiC.pdf). Used in 4.2 for how closely a linear readhead must follow its scale.
+
+6. T. Flash and N. Hogan, "The coordination of arm movements: an experimentally confirmed mathematical model," *Journal of Neuroscience* 5(7), 1688–1703, 1985 — [jneurosci.org](https://www.jneurosci.org/content/5/7/1688). Used in 7.4 for the minimum-jerk curve.
